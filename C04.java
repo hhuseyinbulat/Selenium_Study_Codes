@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class C04 extends TestBase {
     @Test
-    public void test01() {
+    public void day09_Challenge2() {
         //       url'ye git: http://demo.guru99.com/popup.php
         driver.get("http://demo.guru99.com/popup.php");
         //       ilk pencereyi al
