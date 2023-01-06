@@ -4,14 +4,14 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import utilities.TestBase;
 
 import java.util.Set;
 public class C06 extends TestBase {
     JavascriptExecutor js = (JavascriptExecutor)driver;
     @Test
-    public void test05() throws InterruptedException {
+
+    public void day10_Challenge() throws InterruptedException {
         //https://demoqa.com/ url'ine gidin.
         driver.get("https://demoqa.com/");
         //Alerts, Frame & Windows Butonuna click yap
